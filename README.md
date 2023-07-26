@@ -23,7 +23,7 @@
 
 # 📖 Jogging API <a name="about-project"></a>
 
-**Jogging API** is an API to 
+**Jogging API** is an API to list jogging times and give a weekly report.
 
 ## 🛠 Built With <a name="built-with"></a>
 
