@@ -14,7 +14,6 @@
     - [Install](#install)
     - [Usage](#usage)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -48,9 +47,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **List of Posts:** The app will display a list of posts for readers to view.
-- **Commenting System:** Readers can add comments to the posts, which will allow for discussion and feedback.
-- **Like System:** The app will allow readers to like posts, which can help the author understand which posts are the most popular.
+- **jogging times** The app will display a list of entered jogging time by the user and can delete and edit them.
+- **Filter by date:** User can filter his jogging times by date.
+- **Report average speed and distance:** The app will allow users to get a weekly report for about speed and distance of the jogging they did.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,11 +78,11 @@ You will need the following:
 Clone this repository to your desired folder:
 
 ```
-  git clone https://github.com/belalgamal46/blog-app.git
+  git clone https://github.com/belalgamal46/jogging.git
 ```
 
 ```
-  cd blog-app
+  cd jogging
 ```
 
 ### Install
@@ -102,7 +101,15 @@ Install this project with:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following commands:
+
+```
+rails db:create
+```
+
+```
+rails db:migrate
+```
 
 ```
   rails server
@@ -119,23 +126,13 @@ To run the project, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Search functionality:**  Add a search bar to allow users to search for specific posts or topics of interest.
-- [ ] **Categories and tags:** Allow authors to categorize their posts by creating specific categories or tags. This would enable users to filter posts by category or tag, making it easier to find posts on specific topics.
-- [ ] **Rich text editor:** Implement a rich text editor to enable authors to format their posts with images, videos, and other multimedia content.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/belalgamal46/blog-app/issues).
+Feel free to check the [issues page](https://github.com/belalgamal46/jogging/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,14 +141,6 @@ Feel free to check the [issues page](https://github.com/belalgamal46/blog-app/is
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project you can give it a star to support it
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Microverse for all the help they provide.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
