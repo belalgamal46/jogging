@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  db:
+    container_name: jogging_API
+    image: postgres:14-alpine3.15
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    volumes:
+      - jogging-API-data:/var/lib/postgresql/data
+
+volumes:
+  jogging-API-data:
