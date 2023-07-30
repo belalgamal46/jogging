@@ -24,6 +24,7 @@
 # 📖 Jogging API <a name="about-project"></a>
 
 **Jogging API** is an API to list jogging times and give a weekly report.
+
 [Documentaion](https://documenter.getpostman.com/view/12680644/2s9XxtxFGq) on how to use the API endpoints
 
 ## 🛠 Built With <a name="built-with"></a>
