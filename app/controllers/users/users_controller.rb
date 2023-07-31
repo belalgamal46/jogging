@@ -9,6 +9,8 @@ class Users::UsersController < ApiController
   def update
     if @user.update(user_params)
       render json: { data: @user, status: 'success', message: 'User have been updated successfully' }, status: :ok
+    elsif @user.regular?
+      render json: { message: 'Logged in User is unauthorized', status: 'failed' }, status: :unauthorized
     else
       render json: { message: @user.errors.full_messages, status: 'failed' }, status: :unprocessable_entity
     end
